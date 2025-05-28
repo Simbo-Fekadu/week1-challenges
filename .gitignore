@@ -172,4 +172,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
- data/
+
+# Project specific
+data/
+*.csv
+*.pkl
+*.h5
+
+# Logs
+*.log
+
+# Local environment variables
+.env
